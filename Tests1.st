@@ -1,4 +1,3 @@
-Smalltalk at: #L put: (C % nil).
 t := L % 1, (V @ 2 % 3).
 self assert: [t car car value isNil].
 self assert: [t car cdr value = 1].
